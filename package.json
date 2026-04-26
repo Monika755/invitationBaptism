@@ -1,9 +1,9 @@
 {
-  "name": "invitationLida",
+  "name": "invitationBaptism",
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://github.com/Monika755/invitationBaptism.git",
+  "homepage": "https://monika755.github.io/invitationBaptism",
   "scripts": {
     "dev": "vite",
     "build": "vite build",

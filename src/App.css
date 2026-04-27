@@ -1,3 +1,4 @@
+ 
 * {
   margin: 0;
   padding: 0;
@@ -6,11 +7,12 @@
 
 body {
   margin: 0;
-  min-height: 100vh;
-  background-image: url("./lida.jpeg");
+  min-height: 200vh;
+  background-image: url( "./image/lida.jpeg");
   background-size: cover;
   background-position: center;
-  background-repeat: no-repeat;
+  background-repeat: no-repeat; 
+  background-attachment: fixed;
 }
 
 /* Tablet */
@@ -30,7 +32,7 @@ body {
 } 
 
 .text {
-font-family: 'Raleway', sans-serif;
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; 
 font-weight: 100;
 letter-spacing: 3px;   
 transform: scaleY(0.95); 
@@ -73,7 +75,7 @@ transform: scaleY(0.95);
   justify-content: center; 
   align-items: center;
   height: auto;
-  margin-top: 50px; 
+  margin-top: 20px; 
 }  
   
 .container img { 
@@ -84,7 +86,8 @@ transform: scaleY(0.95);
   animation: floatText 3s ease-in-out infinite;
 }
 
-.container h2 {
+.container h2 { 
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; 
   color: white;
   font-weight: 100;
 } 
@@ -105,7 +108,7 @@ transform: scaleY(0.95);
 .countdown {
   text-align: center;
   color: white;
-  margin-top: 30px;
+  margin-top: 250px;
   font-weight: 100;
 }
 
@@ -115,6 +118,123 @@ transform: scaleY(0.95);
 }
 
 .countdown p {
-  font-size: 20px;
+  font-size: 16px;  
+ margin-right: 15px;
   letter-spacing: 2px;
+} 
+
+.invite-text {
+  text-align: center;
+  color: white;
+  padding: 20px;
+  margin-top: 80px;
+}
+
+.invite-text h3 { 
+  font-style: italic; 
+  font-weight: 200;
+  letter-spacing: 3px;
+  margin-bottom: 20px;
+}
+
+.invite-text p { 
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; 
+  max-width: 500px;
+  margin: auto;
+  line-height: 1.8;
+  font-size: 18px;
+  font-weight: 200;
+}
+
+.invite-text h4 { 
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; 
+  margin-top: 30px;
+  font-weight: 200;
+  letter-spacing: 4px;
+} 
+
+.event-info {
+  text-align: center;
+  color: white;
+  margin-top: 60px;
+  padding-bottom: 60px;
+}
+
+.event-info h2 {
+ font-style: italic; 
+  font-weight: 200;
+  letter-spacing: 3px;
+  margin-bottom: 20px;
+}
+
+.event-info h3 {
+ font-style: italic; 
+  font-weight: 200;
+  letter-spacing: 3px;
+  margin-bottom: 20px;
+}
+
+.event-info p { 
+  padding-top: 10px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; 
+ font-size: 18px;
+  letter-spacing: 3px;
+  margin-bottom: 20px;
+}
+
+.event-info h4 { 
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; 
+  margin-top: 20px;
+  font-size: 18px;
+  font-weight: 200;
+  letter-spacing: 5px;
+}
+
+.event-info h5 { 
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; 
+
+  margin-top: 15px;
+  font-size: 18px;
+  font-weight: 200;
+  letter-spacing: 3px;
+} 
+
+.church-img {
+  width: 180px;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-top: 15px;
+  border: 2px solid white;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.location-btn {
+  display: block;
+  width: fit-content;
+  margin: 12px auto 0 auto;
+
+  padding: 10px 18px;
+
+  background: transparent;        /* լիքը թափանցիկ */
+  border: 1px solid rgba(255, 255, 255, 0.5); /* բաց գիծ */
+
+  color: rgba(255, 255, 255, 0.85);
+  text-decoration: none;
+
+  border-radius: 30px;
+
+  font-size: 15px;
+  letter-spacing: 1px;
+
+  transition: 0.3s;
+  text-align: center;
+}
+
+.location-btn:hover {
+  background: rgba(255, 255, 255, 0.1); /* թեթև hover effect */
+  border-color: rgba(255, 255, 255, 0.8);
+  transform: scale(1.05);
 }

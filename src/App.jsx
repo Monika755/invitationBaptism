@@ -113,13 +113,13 @@ export default function App() {
         <img className="church-img" src={church} alt="church" />
 
         <a
-          className="location-btn"
-          href="https://www.google.com/maps/search/?api=1&query=Սուրբ+Կարապետ+եկեղեցի+Ջանֆիդա"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Ինչպես հասնել
-        </a>
+  className="location-btn"
+  href="https://yandex.com/maps/-/CPGdb4Ko"
+  target="_blank"
+  rel="noopener noreferrer"
+>
+  Ինչպես հասնել
+</a>
 
         <p className="time">17։30</p>
 
@@ -131,13 +131,13 @@ export default function App() {
         <img className="church-img" src={mush} alt="mush restaurant" />
 
         <a
-          className="location-btn"
-          href="https://www.google.com/maps/search/?api=1&query=Mush+Restaurant+Nalbandyan+Armenia"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Ինչպես հասնել
-        </a>
+  className="location-btn"
+  href="https://yandex.com/maps/-/CPGdJKyZ"
+  target="_blank"
+  rel="noopener noreferrer"
+>
+  Ինչպես հասնել
+</a>
       </div>
     </div>
   );
